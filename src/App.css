@@ -1,0 +1,222 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Dark theme */
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Navbar dark*/
+.dark .MuiAppBar-root .MuiButton-root {
+  background-color: #171717;
+  color: #ffffff;
+  padding: 6px 16px;
+  font-weight: bold;
+}
+.dark .MuiAppBar-root .MuiButton-root:hover {
+  background-color: #710000;
+  color: #ffffff;
+}
+
+/* buttons dark*/
+.dark .MuiButton-root:not(.MuiAppBar-root .MuiButton-root) {
+  background-color: #d10000;
+  color: #ffffff;
+}
+.dark .MuiButton-root:not(.MuiAppBar-root .MuiButton-root):hover {
+  background-color: #710000;
+}
+
+/* form dark*/
+.form-dark  {
+  background-color: #121212;
+  color: #ffffff;
+  border: 1px solid #373737;
+  border-radius: 4px;
+}
+
+/* elementen als cards, nav... dark*/
+.dark .MuiPaper-root {
+  background-color: #171717;
+  border-color: #373737;
+  color: #ffffff;
+}
+
+/* input dark*/
+.dark .MuiInputBase-root {
+  background-color: #171717;
+  color: #ffffff;
+}
+.dark .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #373737;
+}
+
+/* table dark */
+.dark .MuiTableHead-root .MuiTableCell-root {
+  background-color: #171717;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 1px solid #171717;
+}
+.dark .MuiTableBody-root .MuiTableCell-root {
+  color: #ffffff;
+  border: 1px solid #171717;
+}
+.dark .MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #171717;
+}
+
+/* alert dark */
+.dark .MuiAlert-root .MuiAlert-message {
+  color: #ffffff;
+}
+
+/* pijltje dropdown dark */
+.dark .MuiSvgIcon-root.MuiSelect-icon {
+  color: #ffffff;
+}
+
+/* link dark */
+.dark .MuiLink-root {
+  color: #ffffff;
+  text-decoration: none;
+}
+.dark .MuiLink-root:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+/*icon Dark*/
+.dark .MuiSvgIcon-root {
+  color: #ffffff;
+}
+.dark .MuiSvgIcon-root:hover {
+  color: #ff0000;
+}
+
+/* Light theme */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* Navbar light*/
+.light .MuiAppBar-root .MuiButton-root {
+  background-color: #e3e3e3;
+  color: #000000;
+  padding: 6px 16px;
+  font-weight: bold;
+}
+.light .MuiAppBar-root .MuiButton-root:hover {
+  background-color: #cd0000;
+  color: #000000;
+}
+
+/* buttons light*/
+.light .MuiButton-root:not(.MuiAppBar-root .MuiButton-root) {
+  background-color: #d10000;
+  color: #000000;
+}
+.light .MuiButton-root:not(.MuiAppBar-root .MuiButton-root):hover {
+  background-color: #9a0000;
+}
+
+/* form light*/
+.form-light  {
+  background-color: #ececec;
+  color: #000000;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+}
+
+/* input light*/
+.light .MuiInputBase-root {
+  background-color: #e3e3e3;
+  color: #000000;
+}
+.light .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #373737;
+}
+
+/* elementen als cards light*/
+.light .MuiPaper-root {
+  background-color: #e3e3e3;
+  border-color: #dadada;
+  color: #000000;
+}
+
+/* table light */
+.light .MuiTableHead-root .MuiTableCell-root {
+  background-color: #e3e3e3;
+  color: #000000;
+  font-weight: bold;
+  border-bottom: 1px solid #e3e3e3;
+}
+.light .MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #e3e3e3;
+}
+
+/* alert light*/
+.light .MuiAlert-root .MuiAlert-message {
+  color: #000000;
+}
+
+/* link light */
+.light .MuiLink-root {
+  color: #000000;
+  text-decoration: none;
+}
+.light .MuiLink-root:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+/* pijltje dropdown light */
+.light .MuiSvgIcon-root.MuiSelect-icon {
+  color: #000000;
+}
+
+/*icon light*/
+.light .MuiSvgIcon-root {
+  color: #000000;
+}
+.light .MuiSvgIcon-root:hover {
+  color: #ff0000;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
